@@ -103,7 +103,7 @@ project/
 
 | Участник | Зона ответственности | GitHub |
 |----------|---------------------|--------|
-| Иванов Иван | Координация команды, Backend | [Профиль](https://github.com/) |
-| Петров Пётр | Серверная часть, БД, Tester | [Профиль](https://github.com/) |
-| Сидорова Анна | Frontend, Backend | [Профиль](https://github.com/) |
-| Смирнова Мария | Frontend, Дизайн, Figma | [Профиль](https://github.com/) |
+| Ткачев Алексей |  | [Профиль](https://github.com/Jyorous) |
+| Перегудов Александр |  | [Профиль](https://github.com/TeaZami) |
+| Новиков Владислав |  | [Профиль](https://github.com/vladnovikov1235) |
+| Самутин Александр |  | [Профиль](https://github.com/AleksandrSamutin) |
