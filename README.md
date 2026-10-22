@@ -25,7 +25,7 @@
 
 | Компонент | Технология |
 |-----------|------------|
-| Frontend | React |
+| Frontend | XML/Kotlin |
 | Backend | Java / Spring Boot |
 | База данных | PostgreSQL |
 | Дизайн | Figma |
