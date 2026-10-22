@@ -89,7 +89,7 @@ project/
 
 1. Клонировать репозиторий:
 
-   git clone https://github.com/user/project.git
+   git clone https://github.com/Dream-Team200/Mobile_programm_for_training.git
 
 2. Перейти в папку проекта.
 3. Установить необходимые зависимости.
