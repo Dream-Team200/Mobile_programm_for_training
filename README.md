@@ -69,18 +69,37 @@
 
 ## 6. Архитектура и структура проекта
 
+Это лишь начальное представление проекта, может будут корректировки
+
 ```text
-project/
-├── frontend/                 # HTML
-├── backend/                  # Исходный код
-├── database/                 # БД
-│   └── schema.sql            # SQL-скрипты
-├── docs/                     # Документация
-│   ├── database.md           # Описание БД
-│   ├── architecture.md       # Описание архитектуры
-│   ├── er-diagram.png        # Схема БД
-│   └── images/               # Скриншоты
-│       └── main-page.png
+app/src/main/
+├── java/com/example/hometrainer/
+│   ├── data/          # User, Workout, Exercise, Achievement, CompletedWorkout, WeightLog
+│   ├── db/            # DatabaseHelper, UserDao, WorkoutDao, AchievementDao, WeightDao
+│   ├── seed/          # SeedImporter (импорт JSON из assets)
+│   ├── repository/    # UserRepository, WorkoutRepository, AchievementRepository, WeightRepository
+│   ├── ui/
+│   │   ├── onboarding/  # Welcome, Name, Gender, Goal, TargetMuscle, Level, BodyParams
+│   │   ├── MainActivity.java (хост + BottomNavigationView)
+│   │   ├── home/        # HomeFragment
+│   │   ├── quests/      # QuestsFragment
+│   │   ├── weight/      # WeightFragment
+│   │   ├── settings/    # SettingsFragment
+│   │   └── workout/     # WorkoutDetailActivity + StepAdapter
+│   └── util/          # ImageLoader, Navigator, Prefs, LevelMultiplier
+├── res/               # XML-разметки, стили, drawable
+└── assets/
+    ├── workouts.json      # Тренировки и упражнения
+    └── achievements.json  # Квесты и звания
+
+docs/                  # Документация
+├── database.md        # Описание БД
+├── architecture.md    # Описание архитектуры
+├── er-diagram.png     # Схема БД
+└── images/            # Скриншоты
+    └── main-page.png
+database/
+└── schema.sql         # SQL-скрипты
 ├── README.md
 └── .gitignore
 ```
