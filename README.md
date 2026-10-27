@@ -100,8 +100,8 @@ docs/                  # Документация
     └── main-page.png
 database/
 └── schema.sql         # SQL-скрипты
-├── README.md
-└── .gitignore
+README.md
+.gitignore
 ```
 
 ## 7. Установка и запуск
