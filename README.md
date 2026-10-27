@@ -40,11 +40,11 @@
 
 Основные экраны:
 - Онбординг (Welcome, Name, Gender, Goal, TargetMuscle, Level, BodyParams)
-- Главная — приветствие + рекомендованные тренировки
-- Окно для тренировок (WorkoutDetailActivity) — обложка, описание, шаги
-- Квесты — достижения и звания с прогрессом
-- Вес — форма, история
-- Настройки — тема, анкета, «О приложении», сброс
+- Главная - приветствие + рекомендованные тренировки
+- Окно для тренировок (WorkoutDetailActivity) - обложка, описание, шаги
+- Квесты - достижения и звания с прогрессом
+- Вес - форма, история
+- Настройки - тема, анкета, «О приложении», сброс
   
 **Главная страница:**
 ![Главная страница](docs/images/main-page.png)
@@ -54,13 +54,13 @@
 **СУБД:** SQLite
 
 В базе данных используются следующие сущности:
-- user — профиль пользователя (цель, уровень, target_muscle, вес, рост)
-- workout — тренировки (goal, level, tags с частями тела, screen_type)
-- exercise — упражнения тренировки (base_reps, base_duration_sec, difficulty_scale)
-- achievement — квесты/звания (kind, target_value, required_level)
-- user_achievement — прогресс по достижениям пользователя
-- completed_workout — история выполненных тренировок
-- weight_log — записи веса по дням (UNIQUE по user_id + date)
+- user - профиль пользователя (цель, уровень, target_muscle, вес, рост)
+- workout - тренировки (goal, level, tags с частями тела, screen_type)
+- exercise - упражнения тренировки (base_reps, base_duration_sec, difficulty_scale)
+- achievement - квесты/звания (kind, target_value, required_level)
+- user_achievement - прогресс по достижениям пользователя
+- completed_workout - история выполненных тренировок
+- weight_log - записи веса по дням (UNIQUE по user_id + date)
 
 **Документация:**
 - [Описание базы данных](docs/database.md)
